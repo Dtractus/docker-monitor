@@ -1,10 +1,29 @@
 {
-  "name": "docker-monitor",
+  "name": "docker-monitor-conveniences",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "",
+  "description": "A simple web interface for monitoring and managing Docker containers.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtractus/docker-monitor-conveniences.git"
+  },
+  "keywords": [
+    "docker",
+    "docker management",
+    "container management",
+    "docker logs",
+    "nodejs"
+  ],
+  "author": "dtractus <dtractus@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtractus/docker-monitor-conveniences/issues"
+  },
+  "homepage": "https://github.com/dtractus/docker-monitor-conveniences#readme",
   "dependencies": {
     "dockerode": "^4.0.2",
     "express": "^4.18.2"
